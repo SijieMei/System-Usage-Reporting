@@ -1,0 +1,7 @@
+{
+    "config": ["config/data-params.json", "config/analysis-params.json"],
+    "build": "run.py",
+    "library": ["src/data/Project"],
+    "notebook": ["notebooks/EDA.ipynb", "notebooks/report.ipynb"],
+    "targets": ["data", "analysis"]
+}

@@ -1,0 +1,522 @@
+11/25/2020 17:38:44,INFO:PolicyManager:logger start.
+11/25/2020 17:38:45,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:38:45,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:38:45,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:38:45,INFO:PolicyManager:No proxy specified
+11/25/2020 17:38:45,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:38:45,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:38:45,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:38:45,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:38:46,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:38:46,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:38:46,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:38:46,INFO:PolicyManager:No proxy specified
+11/25/2020 17:38:46,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:38:47,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:38:47,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:38:47,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:38:49,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:38:49,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:38:49,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:38:49,INFO:PolicyManager:No proxy specified
+11/25/2020 17:38:49,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:38:50,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:38:50,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:38:50,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:38:50,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:38:50,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:38:50,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:38:50,INFO:PolicyManager:No proxy specified
+11/25/2020 17:38:50,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:38:51,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:38:51,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:38:51,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:38:51,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:38:51,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:38:51,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:38:51,INFO:PolicyManager:No proxy specified
+11/25/2020 17:38:51,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:38:52,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:38:52,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:38:52,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:38:52,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:38:52,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:38:52,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:38:52,INFO:PolicyManager:No proxy specified
+11/25/2020 17:38:52,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:38:53,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:38:53,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:38:53,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:38:53,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/25/2020 17:38:53,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/25/2020 17:38:54,INFO:PolicyManager:logger end.
+11/25/2020 17:54:27,INFO:PolicyManager:logger start.
+11/25/2020 17:54:27,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:54:27,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:54:27,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:54:28,INFO:PolicyManager:No proxy specified
+11/25/2020 17:54:28,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:54:28,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:54:28,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:54:28,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:54:29,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:54:29,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:54:29,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:54:29,INFO:PolicyManager:No proxy specified
+11/25/2020 17:54:29,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:54:30,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:54:30,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:54:30,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:54:30,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:54:30,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:54:30,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:54:30,INFO:PolicyManager:No proxy specified
+11/25/2020 17:54:30,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:54:31,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:54:31,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:54:31,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:54:31,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:54:31,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:54:31,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:54:31,INFO:PolicyManager:No proxy specified
+11/25/2020 17:54:31,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:54:32,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:54:32,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:54:32,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:54:32,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:54:32,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:54:32,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:54:32,INFO:PolicyManager:No proxy specified
+11/25/2020 17:54:32,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:54:32,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:54:32,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:54:32,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:54:33,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:54:33,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:54:33,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:54:33,INFO:PolicyManager:No proxy specified
+11/25/2020 17:54:33,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:54:33,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:54:33,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:54:33,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:54:33,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/25/2020 17:54:33,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/25/2020 17:54:34,INFO:PolicyManager:logger end.
+11/25/2020 17:55:18,INFO:PolicyManager:logger start.
+11/25/2020 17:55:18,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:55:18,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:55:18,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:55:18,INFO:PolicyManager:No proxy specified
+11/25/2020 17:55:18,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:55:19,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:55:19,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:55:19,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:55:20,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:55:20,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:55:20,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:55:20,INFO:PolicyManager:No proxy specified
+11/25/2020 17:55:20,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:55:20,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:55:20,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:55:20,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:55:21,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:55:21,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:55:21,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:55:21,INFO:PolicyManager:No proxy specified
+11/25/2020 17:55:21,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:55:22,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:55:22,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:55:22,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:55:22,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:55:22,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:55:22,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:55:22,INFO:PolicyManager:No proxy specified
+11/25/2020 17:55:22,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:55:23,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:55:23,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:55:23,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:55:23,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:55:23,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:55:23,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:55:23,INFO:PolicyManager:No proxy specified
+11/25/2020 17:55:23,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:55:24,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:55:24,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:55:24,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:55:24,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/25/2020 17:55:24,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/25/2020 17:55:24,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/25/2020 17:55:24,INFO:PolicyManager:No proxy specified
+11/25/2020 17:55:24,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/25/2020 17:55:25,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/25/2020 17:55:25,WARNING:PolicyManager:Could not get the policy from the server.
+11/25/2020 17:55:25,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/25/2020 17:55:25,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/25/2020 17:55:25,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/25/2020 17:55:25,INFO:PolicyManager:logger end.
+11/26/2020 13:04:52,INFO:PolicyManager:logger start.
+11/26/2020 13:04:52,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:04:52,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:04:52,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:04:52,INFO:PolicyManager:No proxy specified
+11/26/2020 13:04:52,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:04:56,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:04:56,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:04:56,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:04:57,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:04:57,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:04:57,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:04:57,INFO:PolicyManager:No proxy specified
+11/26/2020 13:04:57,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:04:58,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:04:58,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:04:58,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:04:58,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:04:58,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:04:58,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:04:58,INFO:PolicyManager:No proxy specified
+11/26/2020 13:04:58,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:04:59,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:04:59,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:04:59,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:04:59,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:04:59,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:04:59,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:04:59,INFO:PolicyManager:No proxy specified
+11/26/2020 13:04:59,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:05:00,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:05:00,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:05:00,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:05:00,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:05:00,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:05:00,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:05:00,INFO:PolicyManager:No proxy specified
+11/26/2020 13:05:00,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:05:02,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:05:02,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:05:02,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:05:02,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:05:02,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:05:02,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:05:02,INFO:PolicyManager:No proxy specified
+11/26/2020 13:05:02,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:05:03,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:05:03,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:05:03,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:05:03,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/26/2020 13:05:03,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/26/2020 13:05:03,INFO:PolicyManager:logger end.
+11/26/2020 13:06:05,INFO:PolicyManager:logger start.
+11/26/2020 13:06:05,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:06:05,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:06:05,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:06:05,INFO:PolicyManager:No proxy specified
+11/26/2020 13:06:05,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:06:08,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:06:08,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:06:08,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:06:08,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:06:08,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:06:08,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:06:08,INFO:PolicyManager:No proxy specified
+11/26/2020 13:06:08,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:06:09,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:06:09,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:06:09,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:06:10,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:06:10,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:06:10,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:06:10,INFO:PolicyManager:No proxy specified
+11/26/2020 13:06:10,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:06:11,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:06:11,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:06:11,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:06:11,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:06:11,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:06:11,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:06:11,INFO:PolicyManager:No proxy specified
+11/26/2020 13:06:11,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:06:12,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:06:12,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:06:12,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:06:12,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:06:12,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:06:12,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:06:12,INFO:PolicyManager:No proxy specified
+11/26/2020 13:06:12,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:06:13,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:06:13,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:06:13,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:06:13,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:06:13,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:06:13,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:06:13,INFO:PolicyManager:No proxy specified
+11/26/2020 13:06:13,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:06:14,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:06:14,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:06:14,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:06:14,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/26/2020 13:06:14,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/26/2020 13:06:15,INFO:PolicyManager:logger end.
+11/26/2020 13:06:43,INFO:PolicyManager:logger start.
+11/26/2020 13:06:43,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:06:43,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:06:43,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:06:43,INFO:PolicyManager:No proxy specified
+11/26/2020 13:06:43,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:06:47,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:06:47,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:06:47,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:06:47,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:06:47,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:06:47,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:06:47,INFO:PolicyManager:No proxy specified
+11/26/2020 13:06:47,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:06:48,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:06:48,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:06:48,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:06:48,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:06:48,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:06:48,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:06:48,INFO:PolicyManager:No proxy specified
+11/26/2020 13:06:48,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:06:49,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:06:49,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:06:49,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:06:50,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:06:50,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:06:50,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:06:50,INFO:PolicyManager:No proxy specified
+11/26/2020 13:06:50,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:06:51,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:06:51,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:06:51,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:06:51,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:06:51,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:06:51,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:06:51,INFO:PolicyManager:No proxy specified
+11/26/2020 13:06:51,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:06:52,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:06:52,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:06:52,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:06:52,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:06:52,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:06:52,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:06:52,INFO:PolicyManager:No proxy specified
+11/26/2020 13:06:52,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:06:53,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:06:53,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:06:53,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:06:53,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/26/2020 13:06:53,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/26/2020 13:06:53,INFO:PolicyManager:logger end.
+11/26/2020 13:07:52,INFO:PolicyManager:logger start.
+11/26/2020 13:07:52,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:07:52,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:07:52,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:07:52,INFO:PolicyManager:No proxy specified
+11/26/2020 13:07:52,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:07:55,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:07:55,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:07:55,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:07:55,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:07:55,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:07:55,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:07:55,INFO:PolicyManager:No proxy specified
+11/26/2020 13:07:55,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:07:57,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:07:57,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:07:57,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:07:57,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:07:57,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:07:57,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:07:57,INFO:PolicyManager:No proxy specified
+11/26/2020 13:07:57,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:07:58,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:07:58,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:07:58,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:07:58,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:07:58,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:07:58,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:07:58,INFO:PolicyManager:No proxy specified
+11/26/2020 13:07:58,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:07:59,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:07:59,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:07:59,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:07:59,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:07:59,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:07:59,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:07:59,INFO:PolicyManager:No proxy specified
+11/26/2020 13:07:59,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:08:00,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:08:00,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:08:00,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:08:00,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:08:00,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:08:00,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:08:00,INFO:PolicyManager:No proxy specified
+11/26/2020 13:08:00,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:08:01,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:08:01,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:08:01,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:08:01,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/26/2020 13:08:01,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/26/2020 13:08:02,INFO:PolicyManager:logger end.
+11/26/2020 13:17:26,INFO:PolicyManager:logger start.
+11/26/2020 13:17:26,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:17:26,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:17:26,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:17:26,INFO:PolicyManager:No proxy specified
+11/26/2020 13:17:26,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:17:29,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:17:29,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:17:29,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:17:29,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:17:29,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:17:29,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:17:29,INFO:PolicyManager:No proxy specified
+11/26/2020 13:17:29,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:17:30,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:17:30,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:17:30,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:17:31,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:17:31,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:17:31,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:17:31,INFO:PolicyManager:No proxy specified
+11/26/2020 13:17:31,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:17:32,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:17:32,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:17:32,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:17:32,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:17:32,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:17:32,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:17:32,INFO:PolicyManager:No proxy specified
+11/26/2020 13:17:32,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:17:33,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:17:33,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:17:33,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:17:33,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:17:33,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:17:33,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:17:33,INFO:PolicyManager:No proxy specified
+11/26/2020 13:17:33,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:17:34,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:17:34,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:17:34,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:17:34,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:17:34,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:17:34,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:17:34,INFO:PolicyManager:No proxy specified
+11/26/2020 13:17:34,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:17:35,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:17:35,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:17:35,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:17:35,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/26/2020 13:17:35,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/26/2020 13:17:36,INFO:PolicyManager:logger end.
+11/26/2020 13:18:16,INFO:PolicyManager:logger start.
+11/26/2020 13:18:16,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:18:16,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:18:16,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:18:16,INFO:PolicyManager:No proxy specified
+11/26/2020 13:18:16,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:18:20,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:18:20,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:18:20,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:18:20,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:18:20,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:18:20,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:18:20,INFO:PolicyManager:No proxy specified
+11/26/2020 13:18:20,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:18:21,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:18:21,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:18:21,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:18:21,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:18:21,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:18:21,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:18:21,INFO:PolicyManager:No proxy specified
+11/26/2020 13:18:21,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:18:22,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:18:22,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:18:22,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:18:22,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:18:22,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:18:22,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:18:22,INFO:PolicyManager:No proxy specified
+11/26/2020 13:18:22,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:18:23,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:18:23,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:18:23,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:18:24,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:18:24,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:18:24,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:18:24,INFO:PolicyManager:No proxy specified
+11/26/2020 13:18:24,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:18:25,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:18:25,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:18:25,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:18:25,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\local-proxy.json
+11/26/2020 13:18:25,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\policy.json
+11/26/2020 13:18:25,INFO:PolicyManager:No proxy info configured. filePath: C:\Program Files\Intel\SUR\QUEENCREEK\proxy.json
+11/26/2020 13:18:25,INFO:PolicyManager:No proxy specified
+11/26/2020 13:18:25,INFO:PolicyManager:Get Policy - Server URL: https://policy.system-usage-report.intel.com/, TID: 00000000-0000-0000-0000-000000000000, GUID: 00000000-0000-0000-0000-000000000000, ETag: 
+11/26/2020 13:18:26,ERROR:PolicyManager:Failed to get policy.json. Details: System.ApplicationException: HTTP request error (HTTP Status NotFound: ).
+   在 Intel.DCA.Common.PolicyManager.GetPolicyFromServiceEx(WebProxy proxy)
+11/26/2020 13:18:26,WARNING:PolicyManager:Could not get the policy from the server.
+11/26/2020 13:18:26,DEBUG:PolicyManager:Policy Expiration in UTC is set to 01/01/0001 00:00:00
+11/26/2020 13:18:26,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/26/2020 13:18:26,WARNING:PolicyManager:ATL Worker Thread Priority not specified.  Returning the default: Normal
+11/26/2020 13:18:26,INFO:PolicyManager:logger end.

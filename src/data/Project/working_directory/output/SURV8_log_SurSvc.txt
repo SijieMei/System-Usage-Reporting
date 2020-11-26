@@ -1,0 +1,858 @@
+11/19/2020 23:43:20,INFO:ATLSDK:logger start.
+11/19/2020 23:43:20,DEBUG:ATLSDK:RegisterTask completed. TaskId: TemplateAnalyzerTask
+11/19/2020 23:43:20,DEBUG:ATLSDK:RegisterTask completed. TaskId: DemoAnalyzerTask
+11/19/2020 23:43:20,ERROR:ATLSDK:Failed on GetOrSetGUID with 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\SUR”的访问被拒绝。
+11/19/2020 23:43:20,INFO:ATLSDK:starting scheduling analyzer tasks...
+11/19/2020 23:43:30,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\ivacam\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\ivacam”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/19/2020 23:43:30,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_r200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_r200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/19/2020 23:43:30,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/19/2020 23:43:30,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\R200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\R200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/19/2020 23:43:30,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\SR300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\SR300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/19/2020 23:43:30,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot\BootMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/19/2020 23:43:30,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown\ShutdownMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/19/2020 23:43:30,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend\SuspendMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/19/2020 23:43:31,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\output).
+11/19/2020 23:43:31,INFO:ATLSDK:File is valid to merge and not used
+11/19/2020 23:43:31,INFO:ATLSDK:File is valid to merge and not used
+11/19/2020 23:43:31,DEBUG:ATLSDK:Found DB file(s) in the specified path. Files: src\data\Project\working_directory\input\battery_output-000000.db, src\data\Project\working_directory\input\processes_output-000000.db
+11/19/2020 23:43:31,DEBUG:ATLSDK:Attempted to delete the following file but path does not exist.: src\data\Project\working_directory\output\IDC_DATABASE.SQLITE
+11/19/2020 23:43:31,INFO:ATLSDK:DB connection is initiated for merge process.
+11/19/2020 23:43:31,INFO:ATLSDK:Detected table names to be use in the merge process.
+11/19/2020 23:43:31,DEBUG:ATLSDK:Added SESSION_ID column to INPUT_LIBRARIES table
+11/19/2020 23:43:31,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: INPUTS, foreignKeyTableName: INPUT_LIBRARIES, foreignKey ID_INPUT_LIBRARY
+11/19/2020 23:43:31,DEBUG:ATLSDK:Added SESSION_ID column to INPUTS table
+11/19/2020 23:43:32,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_BLOB_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/19/2020 23:43:32,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_BLOB_TIME_DATA
+11/19/2020 23:43:32,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_DOUBLE_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/19/2020 23:43:32,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_DOUBLE_TIME_DATA
+11/19/2020 23:43:32,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_LL_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/19/2020 23:43:32,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_LL_TIME_DATA
+11/19/2020 23:43:32,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_STRING_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/19/2020 23:43:32,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_STRING_TIME_DATA
+11/19/2020 23:43:32,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_ULL_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/19/2020 23:43:32,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_ULL_TIME_DATA
+11/19/2020 23:43:32,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_UUID_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/19/2020 23:43:32,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_UUID_TIME_DATA
+11/19/2020 23:43:32,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: DB_META_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/19/2020 23:43:32,INFO:ATLSDK:No ForeignKey in the orignal table. skipping :DB_META_DATA
+11/19/2020 23:43:32,DEBUG:ATLSDK:Added SESSION_ID column to DB_META_DATA
+11/19/2020 23:43:32,INFO:ATLSDK:SESSION_ID column is added to tables.
+11/19/2020 23:43:32,DEBUG:ATLSDK:Importing from  src\data\Project\working_directory\input\processes_output-000000.db
+11/19/2020 23:43:32,DEBUG:ATLSDK:Merge of src\data\Project\working_directory\input\processes_output-000000.db is completed!
+11/19/2020 23:43:33,DEBUG:ATLSDK:DB file src\data\Project\working_directory\input\processes_output-000000.db  is deleted from the disk.
+11/19/2020 23:43:33,DEBUG:ATLSDK:File is deleted after merging: src\data\Project\working_directory\input\processes_output-000000.db
+11/19/2020 23:43:33,INFO:ATLSDK:Merge process is completed!
+11/19/2020 23:43:33,DEBUG:ATLSDK:Added local time to COUNTERS_BLOB_TIME_DATA
+11/19/2020 23:43:33,DEBUG:ATLSDK:Added local time to COUNTERS_DOUBLE_TIME_DATA
+11/19/2020 23:43:33,DEBUG:ATLSDK:Added local time to COUNTERS_LL_TIME_DATA
+11/19/2020 23:43:33,DEBUG:ATLSDK:Added local time to COUNTERS_STRING_TIME_DATA
+11/19/2020 23:43:33,DEBUG:ATLSDK:Added local time to COUNTERS_ULL_TIME_DATA
+11/19/2020 23:43:33,DEBUG:ATLSDK:Added local time to COUNTERS_UUID_TIME_DATA
+11/19/2020 23:43:33,INFO:ATLSDK:Adding local time is completed.
+11/19/2020 23:43:33,DEBUG:ATLSDK:Created COUNTERS_BLOB_TIME_DATA_INDEX on COUNTERS_BLOB_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/19/2020 23:43:33,DEBUG:ATLSDK:Created COUNTERS_DOUBLE_TIME_DATA_INDEX on COUNTERS_DOUBLE_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/19/2020 23:43:33,DEBUG:ATLSDK:Created COUNTERS_LL_TIME_DATA_INDEX on COUNTERS_LL_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/19/2020 23:43:33,DEBUG:ATLSDK:Created COUNTERS_STRING_TIME_DATA_INDEX on COUNTERS_STRING_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/19/2020 23:43:33,DEBUG:ATLSDK:Created COUNTERS_ULL_TIME_DATA_INDEX on COUNTERS_ULL_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/19/2020 23:43:33,DEBUG:ATLSDK:Created COUNTERS_UUID_TIME_DATA_INDEX on COUNTERS_UUID_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/19/2020 23:43:33,INFO:ATLSDK:Indices are createed.
+11/19/2020 23:43:33,INFO:ATLSDK:DB connection is closed after merge process.
+11/19/2020 23:43:33,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: TemplateAnalyzerTask
+11/19/2020 23:43:33,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: DemoAnalyzerTask
+11/19/2020 23:43:38,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: TemplateAnalyzerTask
+11/19/2020 23:43:38,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: DemoAnalyzerTask
+11/19/2020 23:43:38,INFO:ATLSDK:ATL worker thread started for DemoAnalyzerTask with thread priority: Normal
+11/19/2020 23:43:38,INFO:ATLSDK:ATL worker thread started for TemplateAnalyzerTask with thread priority: Normal
+11/19/2020 23:43:38,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb
+11/19/2020 23:43:38,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb
+11/19/2020 23:43:38,INFO:ATLSDK:Analyzer task execution completed. TaskId: DemoAnalyzerTask. Duration: 81 ms
+11/19/2020 23:43:38,INFO:ATLSDK:Analyzer task execution completed. TaskId: TemplateAnalyzerTask. Duration: 89 ms
+11/19/2020 23:43:38,INFO:ATLSDK:all analyzer task executions are done...
+11/19/2020 23:43:38,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb  is deleted from the disk.
+11/19/2020 23:43:38,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb  is deleted from the disk.
+11/19/2020 23:43:38,INFO:ATLSDK:logger end.
+11/20/2020 14:27:14,INFO:ATLSDK:logger start.
+11/20/2020 14:27:14,DEBUG:ATLSDK:RegisterTask completed. TaskId: TemplateAnalyzerTask
+11/20/2020 14:27:14,DEBUG:ATLSDK:RegisterTask completed. TaskId: DemoAnalyzerTask
+11/20/2020 14:27:14,ERROR:ATLSDK:Failed on GetOrSetGUID with 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\SUR”的访问被拒绝。
+11/20/2020 14:27:14,INFO:ATLSDK:starting scheduling analyzer tasks...
+11/20/2020 14:27:18,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\ivacam\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\ivacam”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/20/2020 14:27:18,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_r200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_r200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/20/2020 14:27:18,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/20/2020 14:27:18,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\R200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\R200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/20/2020 14:27:18,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\SR300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\SR300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/20/2020 14:27:18,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot\BootMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/20/2020 14:27:18,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown\ShutdownMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/20/2020 14:27:18,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend\SuspendMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/20/2020 14:27:19,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\output).
+11/20/2020 14:27:19,INFO:ATLSDK:File is valid to merge and not used
+11/20/2020 14:27:19,INFO:ATLSDK:File is valid to merge and not used
+11/20/2020 14:27:19,DEBUG:ATLSDK:Found DB file(s) in the specified path. Files: src\data\Project\working_directory\input\battery_output-000000.db, src\data\Project\working_directory\input\processes_output-000000.db
+11/20/2020 14:27:19,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\IDC_DATABASE.SQLITE  is deleted from the disk.
+11/20/2020 14:27:19,INFO:ATLSDK:DB connection is initiated for merge process.
+11/20/2020 14:27:20,INFO:ATLSDK:Detected table names to be use in the merge process.
+11/20/2020 14:27:20,DEBUG:ATLSDK:Added SESSION_ID column to INPUT_LIBRARIES table
+11/20/2020 14:27:20,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: INPUTS, foreignKeyTableName: INPUT_LIBRARIES, foreignKey ID_INPUT_LIBRARY
+11/20/2020 14:27:20,DEBUG:ATLSDK:Added SESSION_ID column to INPUTS table
+11/20/2020 14:27:20,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_BLOB_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/20/2020 14:27:20,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_BLOB_TIME_DATA
+11/20/2020 14:27:20,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_DOUBLE_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/20/2020 14:27:20,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_DOUBLE_TIME_DATA
+11/20/2020 14:27:20,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_LL_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/20/2020 14:27:20,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_LL_TIME_DATA
+11/20/2020 14:27:20,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_STRING_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/20/2020 14:27:20,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_STRING_TIME_DATA
+11/20/2020 14:27:20,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_ULL_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/20/2020 14:27:20,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_ULL_TIME_DATA
+11/20/2020 14:27:20,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_UUID_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/20/2020 14:27:20,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_UUID_TIME_DATA
+11/20/2020 14:27:20,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: DB_META_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/20/2020 14:27:20,INFO:ATLSDK:No ForeignKey in the orignal table. skipping :DB_META_DATA
+11/20/2020 14:27:20,DEBUG:ATLSDK:Added SESSION_ID column to DB_META_DATA
+11/20/2020 14:27:20,INFO:ATLSDK:SESSION_ID column is added to tables.
+11/20/2020 14:27:20,DEBUG:ATLSDK:Importing from  src\data\Project\working_directory\input\processes_output-000000.db
+11/20/2020 14:27:20,DEBUG:ATLSDK:Merge of src\data\Project\working_directory\input\processes_output-000000.db is completed!
+11/20/2020 14:27:20,DEBUG:ATLSDK:DB file src\data\Project\working_directory\input\processes_output-000000.db  is deleted from the disk.
+11/20/2020 14:27:20,DEBUG:ATLSDK:File is deleted after merging: src\data\Project\working_directory\input\processes_output-000000.db
+11/20/2020 14:27:20,INFO:ATLSDK:Merge process is completed!
+11/20/2020 14:27:20,DEBUG:ATLSDK:Added local time to COUNTERS_BLOB_TIME_DATA
+11/20/2020 14:27:20,DEBUG:ATLSDK:Added local time to COUNTERS_DOUBLE_TIME_DATA
+11/20/2020 14:27:20,DEBUG:ATLSDK:Added local time to COUNTERS_LL_TIME_DATA
+11/20/2020 14:27:20,DEBUG:ATLSDK:Added local time to COUNTERS_STRING_TIME_DATA
+11/20/2020 14:27:20,DEBUG:ATLSDK:Added local time to COUNTERS_ULL_TIME_DATA
+11/20/2020 14:27:20,DEBUG:ATLSDK:Added local time to COUNTERS_UUID_TIME_DATA
+11/20/2020 14:27:20,INFO:ATLSDK:Adding local time is completed.
+11/20/2020 14:27:20,DEBUG:ATLSDK:Created COUNTERS_BLOB_TIME_DATA_INDEX on COUNTERS_BLOB_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/20/2020 14:27:20,DEBUG:ATLSDK:Created COUNTERS_DOUBLE_TIME_DATA_INDEX on COUNTERS_DOUBLE_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/20/2020 14:27:20,DEBUG:ATLSDK:Created COUNTERS_LL_TIME_DATA_INDEX on COUNTERS_LL_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/20/2020 14:27:20,DEBUG:ATLSDK:Created COUNTERS_STRING_TIME_DATA_INDEX on COUNTERS_STRING_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/20/2020 14:27:20,DEBUG:ATLSDK:Created COUNTERS_ULL_TIME_DATA_INDEX on COUNTERS_ULL_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/20/2020 14:27:20,DEBUG:ATLSDK:Created COUNTERS_UUID_TIME_DATA_INDEX on COUNTERS_UUID_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/20/2020 14:27:20,INFO:ATLSDK:Indices are createed.
+11/20/2020 14:27:20,INFO:ATLSDK:DB connection is closed after merge process.
+11/20/2020 14:27:20,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: TemplateAnalyzerTask
+11/20/2020 14:27:20,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: DemoAnalyzerTask
+11/20/2020 14:27:24,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: DemoAnalyzerTask
+11/20/2020 14:27:24,INFO:ATLSDK:ATL worker thread started for DemoAnalyzerTask with thread priority: Normal
+11/20/2020 14:27:24,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: TemplateAnalyzerTask
+11/20/2020 14:27:24,INFO:ATLSDK:ATL worker thread started for TemplateAnalyzerTask with thread priority: Normal
+11/20/2020 14:27:24,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb
+11/20/2020 14:27:24,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb
+11/20/2020 14:27:24,INFO:ATLSDK:Analyzer task execution completed. TaskId: TemplateAnalyzerTask. Duration: 72 ms
+11/20/2020 14:27:24,INFO:ATLSDK:Analyzer task execution completed. TaskId: DemoAnalyzerTask. Duration: 88 ms
+11/20/2020 14:27:24,INFO:ATLSDK:all analyzer task executions are done...
+11/20/2020 14:27:24,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb  is deleted from the disk.
+11/20/2020 14:27:25,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb  is deleted from the disk.
+11/20/2020 14:27:25,INFO:ATLSDK:logger end.
+11/25/2020 17:38:34,INFO:ATLSDK:logger start.
+11/25/2020 17:38:34,DEBUG:ATLSDK:RegisterTask completed. TaskId: TemplateAnalyzerTask
+11/25/2020 17:38:34,DEBUG:ATLSDK:RegisterTask completed. TaskId: DemoAnalyzerTask
+11/25/2020 17:38:34,ERROR:ATLSDK:Failed on GetOrSetGUID with 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\SUR”的访问被拒绝。
+11/25/2020 17:38:34,INFO:ATLSDK:starting scheduling analyzer tasks...
+11/25/2020 17:38:45,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\ivacam\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\ivacam”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:38:46,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_r200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_r200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:38:46,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:38:46,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\R200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\R200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:38:46,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\SR300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\SR300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:38:46,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot\BootMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:38:46,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown\ShutdownMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:38:46,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend\SuspendMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:38:47,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\output).
+11/25/2020 17:38:47,INFO:ATLSDK:File is valid to merge and not used
+11/25/2020 17:38:47,INFO:ATLSDK:File is valid to merge and not used
+11/25/2020 17:38:47,INFO:ATLSDK:File is valid to merge and not used
+11/25/2020 17:38:47,INFO:ATLSDK:File is valid to merge and not used
+11/25/2020 17:38:47,INFO:ATLSDK:File is valid to merge and not used
+11/25/2020 17:38:47,DEBUG:ATLSDK:Found DB file(s) in the specified path. Files: src\data\Project\working_directory\input\battery_output-000000.db, src\data\Project\working_directory\input\battery_output-000002.db, src\data\Project\working_directory\input\battery_output-test.db, src\data\Project\working_directory\input\processes_output-000000.db, src\data\Project\working_directory\input\processes_output_000002.db
+11/25/2020 17:38:47,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\IDC_DATABASE.SQLITE  is deleted from the disk.
+11/25/2020 17:38:47,INFO:ATLSDK:DB connection is initiated for merge process.
+11/25/2020 17:38:47,INFO:ATLSDK:Detected table names to be use in the merge process.
+11/25/2020 17:38:47,DEBUG:ATLSDK:Added SESSION_ID column to INPUT_LIBRARIES table
+11/25/2020 17:38:47,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: INPUTS, foreignKeyTableName: INPUT_LIBRARIES, foreignKey ID_INPUT_LIBRARY
+11/25/2020 17:38:47,DEBUG:ATLSDK:Added SESSION_ID column to INPUTS table
+11/25/2020 17:38:47,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_BLOB_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/25/2020 17:38:47,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_BLOB_TIME_DATA
+11/25/2020 17:38:47,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_DOUBLE_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/25/2020 17:38:47,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_DOUBLE_TIME_DATA
+11/25/2020 17:38:47,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_LL_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/25/2020 17:38:48,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_LL_TIME_DATA
+11/25/2020 17:38:48,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_STRING_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/25/2020 17:38:48,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_STRING_TIME_DATA
+11/25/2020 17:38:48,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_ULL_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/25/2020 17:38:48,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_ULL_TIME_DATA
+11/25/2020 17:38:48,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: COUNTERS_UUID_TIME_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/25/2020 17:38:48,DEBUG:ATLSDK:Added SESSION_ID column to COUNTERS_UUID_TIME_DATA
+11/25/2020 17:38:48,INFO:ATLSDK:AddSessionIDToForeignKey started. TableName: DB_META_DATA, foreignKeyTableName: INPUTS, foreignKey ID_INPUT
+11/25/2020 17:38:48,INFO:ATLSDK:No ForeignKey in the orignal table. skipping :DB_META_DATA
+11/25/2020 17:38:48,DEBUG:ATLSDK:Added SESSION_ID column to DB_META_DATA
+11/25/2020 17:38:48,INFO:ATLSDK:SESSION_ID column is added to tables.
+11/25/2020 17:38:48,DEBUG:ATLSDK:Importing from  src\data\Project\working_directory\input\battery_output-000002.db
+11/25/2020 17:38:48,DEBUG:ATLSDK:Merge of src\data\Project\working_directory\input\battery_output-000002.db is completed!
+11/25/2020 17:38:48,DEBUG:ATLSDK:DB file src\data\Project\working_directory\input\battery_output-000002.db  is deleted from the disk.
+11/25/2020 17:38:48,DEBUG:ATLSDK:File is deleted after merging: src\data\Project\working_directory\input\battery_output-000002.db
+11/25/2020 17:38:48,DEBUG:ATLSDK:Importing from  src\data\Project\working_directory\input\battery_output-test.db
+11/25/2020 17:38:48,DEBUG:ATLSDK:Merge of src\data\Project\working_directory\input\battery_output-test.db is completed!
+11/25/2020 17:38:48,DEBUG:ATLSDK:DB file src\data\Project\working_directory\input\battery_output-test.db  is deleted from the disk.
+11/25/2020 17:38:48,DEBUG:ATLSDK:File is deleted after merging: src\data\Project\working_directory\input\battery_output-test.db
+11/25/2020 17:38:48,DEBUG:ATLSDK:Importing from  src\data\Project\working_directory\input\processes_output-000000.db
+11/25/2020 17:38:48,DEBUG:ATLSDK:Merge of src\data\Project\working_directory\input\processes_output-000000.db is completed!
+11/25/2020 17:38:48,DEBUG:ATLSDK:DB file src\data\Project\working_directory\input\processes_output-000000.db  is deleted from the disk.
+11/25/2020 17:38:48,DEBUG:ATLSDK:File is deleted after merging: src\data\Project\working_directory\input\processes_output-000000.db
+11/25/2020 17:38:48,DEBUG:ATLSDK:Importing from  src\data\Project\working_directory\input\processes_output_000002.db
+11/25/2020 17:38:48,DEBUG:ATLSDK:Merge of src\data\Project\working_directory\input\processes_output_000002.db is completed!
+11/25/2020 17:38:48,DEBUG:ATLSDK:DB file src\data\Project\working_directory\input\processes_output_000002.db  is deleted from the disk.
+11/25/2020 17:38:48,DEBUG:ATLSDK:File is deleted after merging: src\data\Project\working_directory\input\processes_output_000002.db
+11/25/2020 17:38:48,INFO:ATLSDK:Merge process is completed!
+11/25/2020 17:38:48,DEBUG:ATLSDK:Added local time to COUNTERS_BLOB_TIME_DATA
+11/25/2020 17:38:48,DEBUG:ATLSDK:Added local time to COUNTERS_DOUBLE_TIME_DATA
+11/25/2020 17:38:48,DEBUG:ATLSDK:Added local time to COUNTERS_LL_TIME_DATA
+11/25/2020 17:38:48,DEBUG:ATLSDK:Added local time to COUNTERS_STRING_TIME_DATA
+11/25/2020 17:38:48,DEBUG:ATLSDK:Added local time to COUNTERS_ULL_TIME_DATA
+11/25/2020 17:38:48,DEBUG:ATLSDK:Added local time to COUNTERS_UUID_TIME_DATA
+11/25/2020 17:38:48,INFO:ATLSDK:Adding local time is completed.
+11/25/2020 17:38:48,DEBUG:ATLSDK:Created COUNTERS_BLOB_TIME_DATA_INDEX on COUNTERS_BLOB_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/25/2020 17:38:48,DEBUG:ATLSDK:Created COUNTERS_DOUBLE_TIME_DATA_INDEX on COUNTERS_DOUBLE_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/25/2020 17:38:48,DEBUG:ATLSDK:Created COUNTERS_LL_TIME_DATA_INDEX on COUNTERS_LL_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/25/2020 17:38:48,DEBUG:ATLSDK:Created COUNTERS_STRING_TIME_DATA_INDEX on COUNTERS_STRING_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/25/2020 17:38:48,DEBUG:ATLSDK:Created COUNTERS_ULL_TIME_DATA_INDEX on COUNTERS_ULL_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/25/2020 17:38:48,DEBUG:ATLSDK:Created COUNTERS_UUID_TIME_DATA_INDEX on COUNTERS_UUID_TIME_DATA (MEASUREMENT_TIME, ID_INPUT, PRIVATE_DATA, SESSION_ID) 
+11/25/2020 17:38:48,INFO:ATLSDK:Indices are createed.
+11/25/2020 17:38:49,INFO:ATLSDK:DB connection is closed after merge process.
+11/25/2020 17:38:49,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: TemplateAnalyzerTask
+11/25/2020 17:38:49,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: DemoAnalyzerTask
+11/25/2020 17:38:53,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: DemoAnalyzerTask
+11/25/2020 17:38:53,INFO:ATLSDK:ATL worker thread started for DemoAnalyzerTask with thread priority: Normal
+11/25/2020 17:38:53,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: TemplateAnalyzerTask
+11/25/2020 17:38:53,INFO:ATLSDK:ATL worker thread started for TemplateAnalyzerTask with thread priority: Normal
+11/25/2020 17:38:53,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb
+11/25/2020 17:38:53,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb
+11/25/2020 17:38:54,INFO:ATLSDK:Analyzer task execution completed. TaskId: TemplateAnalyzerTask. Duration: 109 ms
+11/25/2020 17:38:54,INFO:ATLSDK:Analyzer task execution completed. TaskId: DemoAnalyzerTask. Duration: 124 ms
+11/25/2020 17:38:54,INFO:ATLSDK:all analyzer task executions are done...
+11/25/2020 17:38:54,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb  is deleted from the disk.
+11/25/2020 17:38:54,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb  is deleted from the disk.
+11/25/2020 17:38:54,INFO:ATLSDK:logger end.
+11/25/2020 17:54:24,INFO:ATLSDK:logger start.
+11/25/2020 17:54:24,DEBUG:ATLSDK:RegisterTask completed. TaskId: TemplateAnalyzerTask
+11/25/2020 17:54:24,DEBUG:ATLSDK:RegisterTask completed. TaskId: DemoAnalyzerTask
+11/25/2020 17:54:24,ERROR:ATLSDK:Failed on GetOrSetGUID with 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\SUR”的访问被拒绝。
+11/25/2020 17:54:24,INFO:ATLSDK:starting scheduling analyzer tasks...
+11/25/2020 17:54:28,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\ivacam\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\ivacam”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:54:28,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_r200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_r200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:54:28,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:54:28,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\R200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\R200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:54:28,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\SR300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\SR300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:54:28,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot\BootMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:54:28,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown\ShutdownMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:54:28,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend\SuspendMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:54:30,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\output).
+11/25/2020 17:54:30,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\input).
+11/25/2020 17:54:30,WARNING:ATLSDK:No DB file-except ignored ones- is found in the specified paths!
+11/25/2020 17:54:30,ERROR:ATLSDK:An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+11/25/2020 17:54:30,ERROR:ATLSDK:Error while performing MergeDBs(). Detials: System.IO.FileNotFoundException: An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+   在 Intel.DCA.Common.SqlAggregator.MergeDbs(SvcLogger logger, String dbOutputFileName, String dbSystemFolderPath, String[] userProfileDbFolderPaths, Boolean useLocalTime, Int32 timeFilter)
+   在 ATLHelper.FillOptions.FillAnalyzerTaskExecutionOptions()
+11/25/2020 17:54:30,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: TemplateAnalyzerTask
+11/25/2020 17:54:30,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: DemoAnalyzerTask
+11/25/2020 17:54:33,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: TemplateAnalyzerTask
+11/25/2020 17:54:33,INFO:ATLSDK:ATL worker thread started for TemplateAnalyzerTask with thread priority: Normal
+11/25/2020 17:54:33,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: DemoAnalyzerTask
+11/25/2020 17:54:34,INFO:ATLSDK:ATL worker thread started for DemoAnalyzerTask with thread priority: Normal
+11/25/2020 17:54:34,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb
+11/25/2020 17:54:34,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb
+11/25/2020 17:54:34,INFO:ATLSDK:Analyzer task execution completed. TaskId: DemoAnalyzerTask. Duration: 245 ms
+11/25/2020 17:54:34,INFO:ATLSDK:Analyzer task execution completed. TaskId: TemplateAnalyzerTask. Duration: 266 ms
+11/25/2020 17:54:34,INFO:ATLSDK:all analyzer task executions are done...
+11/25/2020 17:54:34,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb  is deleted from the disk.
+11/25/2020 17:54:34,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb  is deleted from the disk.
+11/25/2020 17:54:34,INFO:ATLSDK:logger end.
+11/25/2020 17:55:10,INFO:ATLSDK:logger start.
+11/25/2020 17:55:11,DEBUG:ATLSDK:RegisterTask completed. TaskId: TemplateAnalyzerTask
+11/25/2020 17:55:11,DEBUG:ATLSDK:RegisterTask completed. TaskId: DemoAnalyzerTask
+11/25/2020 17:55:11,ERROR:ATLSDK:Failed on GetOrSetGUID with 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\SUR”的访问被拒绝。
+11/25/2020 17:55:11,INFO:ATLSDK:starting scheduling analyzer tasks...
+11/25/2020 17:55:19,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\ivacam\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\ivacam”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:55:19,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_r200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_r200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:55:19,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:55:19,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\R200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\R200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:55:19,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\SR300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\SR300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:55:19,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot\BootMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:55:19,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown\ShutdownMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:55:19,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend\SuspendMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/25/2020 17:55:20,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\output).
+11/25/2020 17:55:20,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\input).
+11/25/2020 17:55:20,WARNING:ATLSDK:No DB file-except ignored ones- is found in the specified paths!
+11/25/2020 17:55:20,ERROR:ATLSDK:An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+11/25/2020 17:55:20,ERROR:ATLSDK:Error while performing MergeDBs(). Detials: System.IO.FileNotFoundException: An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+   在 Intel.DCA.Common.SqlAggregator.MergeDbs(SvcLogger logger, String dbOutputFileName, String dbSystemFolderPath, String[] userProfileDbFolderPaths, Boolean useLocalTime, Int32 timeFilter)
+   在 ATLHelper.FillOptions.FillAnalyzerTaskExecutionOptions()
+11/25/2020 17:55:20,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: TemplateAnalyzerTask
+11/25/2020 17:55:20,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: DemoAnalyzerTask
+11/25/2020 17:55:25,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: DemoAnalyzerTask
+11/25/2020 17:55:25,INFO:ATLSDK:ATL worker thread started for DemoAnalyzerTask with thread priority: Normal
+11/25/2020 17:55:25,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: TemplateAnalyzerTask
+11/25/2020 17:55:25,INFO:ATLSDK:ATL worker thread started for TemplateAnalyzerTask with thread priority: Normal
+11/25/2020 17:55:25,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb
+11/25/2020 17:55:25,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb
+11/25/2020 17:55:25,INFO:ATLSDK:Analyzer task execution completed. TaskId: DemoAnalyzerTask. Duration: 165 ms
+11/25/2020 17:55:25,INFO:ATLSDK:Analyzer task execution completed. TaskId: TemplateAnalyzerTask. Duration: 145 ms
+11/25/2020 17:55:25,INFO:ATLSDK:all analyzer task executions are done...
+11/25/2020 17:55:25,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb  is deleted from the disk.
+11/25/2020 17:55:25,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb  is deleted from the disk.
+11/25/2020 17:55:25,INFO:ATLSDK:logger end.
+11/26/2020 13:04:43,INFO:ATLSDK:logger start.
+11/26/2020 13:04:43,DEBUG:ATLSDK:RegisterTask completed. TaskId: TemplateAnalyzerTask
+11/26/2020 13:04:43,DEBUG:ATLSDK:RegisterTask completed. TaskId: DemoAnalyzerTask
+11/26/2020 13:04:43,ERROR:ATLSDK:Failed on GetOrSetGUID with 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\SUR”的访问被拒绝。
+11/26/2020 13:04:43,INFO:ATLSDK:starting scheduling analyzer tasks...
+11/26/2020 13:04:56,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\ivacam\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\ivacam”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:04:56,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_r200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_r200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:04:56,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:04:56,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\R200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\R200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:04:56,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\SR300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\SR300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:04:56,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot\BootMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:04:56,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown\ShutdownMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:04:56,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend\SuspendMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:04:58,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\output).
+11/26/2020 13:04:58,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\input).
+11/26/2020 13:04:58,WARNING:ATLSDK:No DB file-except ignored ones- is found in the specified paths!
+11/26/2020 13:04:58,ERROR:ATLSDK:An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+11/26/2020 13:04:58,ERROR:ATLSDK:Error while performing MergeDBs(). Detials: System.IO.FileNotFoundException: An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+   在 Intel.DCA.Common.SqlAggregator.MergeDbs(SvcLogger logger, String dbOutputFileName, String dbSystemFolderPath, String[] userProfileDbFolderPaths, Boolean useLocalTime, Int32 timeFilter)
+   在 ATLHelper.FillOptions.FillAnalyzerTaskExecutionOptions()
+11/26/2020 13:04:58,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: TemplateAnalyzerTask
+11/26/2020 13:04:58,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: DemoAnalyzerTask
+11/26/2020 13:05:03,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: DemoAnalyzerTask
+11/26/2020 13:05:03,INFO:ATLSDK:ATL worker thread started for DemoAnalyzerTask with thread priority: Normal
+11/26/2020 13:05:03,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: TemplateAnalyzerTask
+11/26/2020 13:05:03,INFO:ATLSDK:ATL worker thread started for TemplateAnalyzerTask with thread priority: Normal
+11/26/2020 13:05:03,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb
+11/26/2020 13:05:03,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb
+11/26/2020 13:05:03,INFO:ATLSDK:Analyzer task execution completed. TaskId: TemplateAnalyzerTask. Duration: 259 ms
+11/26/2020 13:05:03,INFO:ATLSDK:Analyzer task execution completed. TaskId: DemoAnalyzerTask. Duration: 275 ms
+11/26/2020 13:05:03,INFO:ATLSDK:all analyzer task executions are done...
+11/26/2020 13:05:03,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb  is deleted from the disk.
+11/26/2020 13:05:03,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb  is deleted from the disk.
+11/26/2020 13:05:03,INFO:ATLSDK:logger end.
+11/26/2020 13:06:02,INFO:ATLSDK:logger start.
+11/26/2020 13:06:02,DEBUG:ATLSDK:RegisterTask completed. TaskId: TemplateAnalyzerTask
+11/26/2020 13:06:02,DEBUG:ATLSDK:RegisterTask completed. TaskId: DemoAnalyzerTask
+11/26/2020 13:06:02,ERROR:ATLSDK:Failed on GetOrSetGUID with 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\SUR”的访问被拒绝。
+11/26/2020 13:06:02,INFO:ATLSDK:starting scheduling analyzer tasks...
+11/26/2020 13:06:08,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\ivacam\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\ivacam”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:08,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_r200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_r200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:08,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:08,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\R200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\R200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:08,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\SR300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\SR300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:08,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot\BootMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:08,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown\ShutdownMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:08,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend\SuspendMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:09,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\output).
+11/26/2020 13:06:09,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\input).
+11/26/2020 13:06:09,WARNING:ATLSDK:No DB file-except ignored ones- is found in the specified paths!
+11/26/2020 13:06:09,ERROR:ATLSDK:An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+11/26/2020 13:06:09,ERROR:ATLSDK:Error while performing MergeDBs(). Detials: System.IO.FileNotFoundException: An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+   在 Intel.DCA.Common.SqlAggregator.MergeDbs(SvcLogger logger, String dbOutputFileName, String dbSystemFolderPath, String[] userProfileDbFolderPaths, Boolean useLocalTime, Int32 timeFilter)
+   在 ATLHelper.FillOptions.FillAnalyzerTaskExecutionOptions()
+11/26/2020 13:06:09,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: TemplateAnalyzerTask
+11/26/2020 13:06:09,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: DemoAnalyzerTask
+11/26/2020 13:06:14,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: TemplateAnalyzerTask
+11/26/2020 13:06:14,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: DemoAnalyzerTask
+11/26/2020 13:06:14,INFO:ATLSDK:ATL worker thread started for DemoAnalyzerTask with thread priority: Normal
+11/26/2020 13:06:14,INFO:ATLSDK:ATL worker thread started for TemplateAnalyzerTask with thread priority: Normal
+11/26/2020 13:06:14,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb
+11/26/2020 13:06:14,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb
+11/26/2020 13:06:15,INFO:ATLSDK:Analyzer task execution completed. TaskId: DemoAnalyzerTask. Duration: 129 ms
+11/26/2020 13:06:15,INFO:ATLSDK:Analyzer task execution completed. TaskId: TemplateAnalyzerTask. Duration: 136 ms
+11/26/2020 13:06:15,INFO:ATLSDK:all analyzer task executions are done...
+11/26/2020 13:06:15,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb  is deleted from the disk.
+11/26/2020 13:06:15,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb  is deleted from the disk.
+11/26/2020 13:06:15,INFO:ATLSDK:logger end.
+11/26/2020 13:06:41,INFO:ATLSDK:logger start.
+11/26/2020 13:06:41,DEBUG:ATLSDK:RegisterTask completed. TaskId: TemplateAnalyzerTask
+11/26/2020 13:06:41,DEBUG:ATLSDK:RegisterTask completed. TaskId: DemoAnalyzerTask
+11/26/2020 13:06:41,ERROR:ATLSDK:Failed on GetOrSetGUID with 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\SUR”的访问被拒绝。
+11/26/2020 13:06:41,INFO:ATLSDK:starting scheduling analyzer tasks...
+11/26/2020 13:06:47,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\ivacam\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\ivacam”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:47,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_r200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_r200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:47,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:47,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\R200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\R200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:47,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\SR300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\SR300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:47,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot\BootMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:47,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown\ShutdownMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:47,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend\SuspendMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:06:48,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\output).
+11/26/2020 13:06:48,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\input).
+11/26/2020 13:06:48,WARNING:ATLSDK:No DB file-except ignored ones- is found in the specified paths!
+11/26/2020 13:06:48,ERROR:ATLSDK:An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+11/26/2020 13:06:48,ERROR:ATLSDK:Error while performing MergeDBs(). Detials: System.IO.FileNotFoundException: An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+   在 Intel.DCA.Common.SqlAggregator.MergeDbs(SvcLogger logger, String dbOutputFileName, String dbSystemFolderPath, String[] userProfileDbFolderPaths, Boolean useLocalTime, Int32 timeFilter)
+   在 ATLHelper.FillOptions.FillAnalyzerTaskExecutionOptions()
+11/26/2020 13:06:48,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: TemplateAnalyzerTask
+11/26/2020 13:06:48,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: DemoAnalyzerTask
+11/26/2020 13:06:53,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: DemoAnalyzerTask
+11/26/2020 13:06:53,INFO:ATLSDK:ATL worker thread started for DemoAnalyzerTask with thread priority: Normal
+11/26/2020 13:06:53,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: TemplateAnalyzerTask
+11/26/2020 13:06:53,INFO:ATLSDK:ATL worker thread started for TemplateAnalyzerTask with thread priority: Normal
+11/26/2020 13:06:53,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb
+11/26/2020 13:06:53,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb
+11/26/2020 13:06:53,INFO:ATLSDK:Analyzer task execution completed. TaskId: TemplateAnalyzerTask. Duration: 118 ms
+11/26/2020 13:06:53,INFO:ATLSDK:Analyzer task execution completed. TaskId: DemoAnalyzerTask. Duration: 132 ms
+11/26/2020 13:06:53,INFO:ATLSDK:all analyzer task executions are done...
+11/26/2020 13:06:53,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb  is deleted from the disk.
+11/26/2020 13:06:53,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb  is deleted from the disk.
+11/26/2020 13:06:53,INFO:ATLSDK:logger end.
+11/26/2020 13:07:49,INFO:ATLSDK:logger start.
+11/26/2020 13:07:49,DEBUG:ATLSDK:RegisterTask completed. TaskId: TemplateAnalyzerTask
+11/26/2020 13:07:49,DEBUG:ATLSDK:RegisterTask completed. TaskId: DemoAnalyzerTask
+11/26/2020 13:07:49,ERROR:ATLSDK:Failed on GetOrSetGUID with 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\SUR”的访问被拒绝。
+11/26/2020 13:07:49,INFO:ATLSDK:starting scheduling analyzer tasks...
+11/26/2020 13:07:55,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\ivacam\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\ivacam”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:07:55,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_r200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_r200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:07:55,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:07:55,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\R200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\R200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:07:55,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\SR300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\SR300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:07:55,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot\BootMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:07:55,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown\ShutdownMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:07:55,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend\SuspendMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:07:57,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\output).
+11/26/2020 13:07:57,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\input).
+11/26/2020 13:07:57,WARNING:ATLSDK:No DB file-except ignored ones- is found in the specified paths!
+11/26/2020 13:07:57,ERROR:ATLSDK:An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+11/26/2020 13:07:57,ERROR:ATLSDK:Error while performing MergeDBs(). Detials: System.IO.FileNotFoundException: An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+   在 Intel.DCA.Common.SqlAggregator.MergeDbs(SvcLogger logger, String dbOutputFileName, String dbSystemFolderPath, String[] userProfileDbFolderPaths, Boolean useLocalTime, Int32 timeFilter)
+   在 ATLHelper.FillOptions.FillAnalyzerTaskExecutionOptions()
+11/26/2020 13:07:57,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: TemplateAnalyzerTask
+11/26/2020 13:07:57,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: DemoAnalyzerTask
+11/26/2020 13:08:01,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: DemoAnalyzerTask
+11/26/2020 13:08:01,INFO:ATLSDK:ATL worker thread started for DemoAnalyzerTask with thread priority: Normal
+11/26/2020 13:08:01,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: TemplateAnalyzerTask
+11/26/2020 13:08:01,INFO:ATLSDK:ATL worker thread started for TemplateAnalyzerTask with thread priority: Normal
+11/26/2020 13:08:01,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb
+11/26/2020 13:08:01,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb
+11/26/2020 13:08:02,INFO:ATLSDK:Analyzer task execution completed. TaskId: DemoAnalyzerTask. Duration: 139 ms
+11/26/2020 13:08:02,INFO:ATLSDK:Analyzer task execution completed. TaskId: TemplateAnalyzerTask. Duration: 126 ms
+11/26/2020 13:08:02,INFO:ATLSDK:all analyzer task executions are done...
+11/26/2020 13:08:02,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb  is deleted from the disk.
+11/26/2020 13:08:02,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb  is deleted from the disk.
+11/26/2020 13:08:02,INFO:ATLSDK:logger end.
+11/26/2020 13:17:22,INFO:ATLSDK:logger start.
+11/26/2020 13:17:22,DEBUG:ATLSDK:RegisterTask completed. TaskId: TemplateAnalyzerTask
+11/26/2020 13:17:22,DEBUG:ATLSDK:RegisterTask completed. TaskId: DemoAnalyzerTask
+11/26/2020 13:17:22,ERROR:ATLSDK:Failed on GetOrSetGUID with 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\SUR”的访问被拒绝。
+11/26/2020 13:17:22,INFO:ATLSDK:starting scheduling analyzer tasks...
+11/26/2020 13:17:29,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\ivacam\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\ivacam”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:17:29,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_r200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_r200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:17:29,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:17:29,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\R200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\R200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:17:29,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\SR300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\SR300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:17:29,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot\BootMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:17:29,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown\ShutdownMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:17:29,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend\SuspendMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:17:30,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\output).
+11/26/2020 13:17:30,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\input).
+11/26/2020 13:17:30,WARNING:ATLSDK:No DB file-except ignored ones- is found in the specified paths!
+11/26/2020 13:17:30,ERROR:ATLSDK:An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+11/26/2020 13:17:30,ERROR:ATLSDK:Error while performing MergeDBs(). Detials: System.IO.FileNotFoundException: An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+   在 Intel.DCA.Common.SqlAggregator.MergeDbs(SvcLogger logger, String dbOutputFileName, String dbSystemFolderPath, String[] userProfileDbFolderPaths, Boolean useLocalTime, Int32 timeFilter)
+   在 ATLHelper.FillOptions.FillAnalyzerTaskExecutionOptions()
+11/26/2020 13:17:30,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: DemoAnalyzerTask
+11/26/2020 13:17:30,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: TemplateAnalyzerTask
+11/26/2020 13:17:35,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: TemplateAnalyzerTask
+11/26/2020 13:17:35,INFO:ATLSDK:ATL worker thread started for TemplateAnalyzerTask with thread priority: Normal
+11/26/2020 13:17:35,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: DemoAnalyzerTask
+11/26/2020 13:17:35,INFO:ATLSDK:ATL worker thread started for DemoAnalyzerTask with thread priority: Normal
+11/26/2020 13:17:35,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb
+11/26/2020 13:17:35,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb
+11/26/2020 13:17:35,INFO:ATLSDK:Analyzer task execution completed. TaskId: DemoAnalyzerTask. Duration: 122 ms
+11/26/2020 13:17:35,INFO:ATLSDK:Analyzer task execution completed. TaskId: TemplateAnalyzerTask. Duration: 136 ms
+11/26/2020 13:17:35,INFO:ATLSDK:all analyzer task executions are done...
+11/26/2020 13:17:35,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb  is deleted from the disk.
+11/26/2020 13:17:36,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb  is deleted from the disk.
+11/26/2020 13:17:36,INFO:ATLSDK:logger end.
+11/26/2020 13:18:14,INFO:ATLSDK:logger start.
+11/26/2020 13:18:14,DEBUG:ATLSDK:RegisterTask completed. TaskId: TemplateAnalyzerTask
+11/26/2020 13:18:14,DEBUG:ATLSDK:RegisterTask completed. TaskId: DemoAnalyzerTask
+11/26/2020 13:18:14,ERROR:ATLSDK:Failed on GetOrSetGUID with 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\SUR”的访问被拒绝。
+11/26/2020 13:18:14,INFO:ATLSDK:starting scheduling analyzer tasks...
+11/26/2020 13:18:20,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\ivacam\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\ivacam”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:18:20,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_r200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_r200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:18:20,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSSDK\Components\dcmservice_sr300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:18:20,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\R200\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\R200”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:18:20,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Intel\RSDCM\SR300\Version - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Intel\RSDCM\SR300”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:18:20,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot\BootMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Boot”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:18:20,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown\ShutdownMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Shutdown”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:18:20,WARNING:ATLSDK:Failed on GetRegistryKeyValue with SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend\SuspendMinorThreshold_Sec - System.UnauthorizedAccessException: 对注册表项“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\Performance\Suspend”的访问被拒绝。
+   在 Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   在 Microsoft.Win32.RegistryKey.CreateSubKeyInternal(String subkey, RegistryKeyPermissionCheck permissionCheck, Object registrySecurityObj, RegistryOptions registryOptions)
+   在 Microsoft.Win32.RegistryKey.CreateSubKey(String subkey, RegistryKeyPermissionCheck permissionCheck)
+   在 Intel.DCA.Common.CommonHelper.GetRegistryKeyValue(RegistryHive Hive, RegistryView RegView, String Key, String KeyName, SvcLogger Logger, Boolean suppressLog)
+11/26/2020 13:18:21,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\output).
+11/26/2020 13:18:21,WARNING:ATLSDK:No DB file is found in the specified path (src\data\Project\working_directory\input).
+11/26/2020 13:18:21,WARNING:ATLSDK:No DB file-except ignored ones- is found in the specified paths!
+11/26/2020 13:18:21,ERROR:ATLSDK:An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+11/26/2020 13:18:21,ERROR:ATLSDK:Error while performing MergeDBs(). Detials: System.IO.FileNotFoundException: An error occurred during finding db files: No DB file-except ignored ones- is found in the specified paths!
+   在 Intel.DCA.Common.SqlAggregator.MergeDbs(SvcLogger logger, String dbOutputFileName, String dbSystemFolderPath, String[] userProfileDbFolderPaths, Boolean useLocalTime, Int32 timeFilter)
+   在 ATLHelper.FillOptions.FillAnalyzerTaskExecutionOptions()
+11/26/2020 13:18:21,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: TemplateAnalyzerTask
+11/26/2020 13:18:21,INFO:ATLSDK:Analyzer task execution is scheduled. TaskId: DemoAnalyzerTask
+11/26/2020 13:18:26,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: TemplateAnalyzerTask
+11/26/2020 13:18:26,INFO:ATLSDK:ATL worker thread started for TemplateAnalyzerTask with thread priority: Normal
+11/26/2020 13:18:26,INFO:ATLSDK:ATL worker thread ready to start.  Task ID: DemoAnalyzerTask
+11/26/2020 13:18:26,INFO:ATLSDK:ATL worker thread started for DemoAnalyzerTask with thread priority: Normal
+11/26/2020 13:18:26,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb
+11/26/2020 13:18:26,INFO:ATLSDK:database file doesnt exist : src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb
+11/26/2020 13:18:26,INFO:ATLSDK:Analyzer task execution completed. TaskId: TemplateAnalyzerTask. Duration: 138 ms
+11/26/2020 13:18:26,INFO:ATLSDK:Analyzer task execution completed. TaskId: DemoAnalyzerTask. Duration: 125 ms
+11/26/2020 13:18:26,INFO:ATLSDK:all analyzer task executions are done...
+11/26/2020 13:18:26,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8DemoAnalyzerTask.atldb  is deleted from the disk.
+11/26/2020 13:18:26,DEBUG:ATLSDK:DB file src\data\Project\working_directory\output\V8TemplateAnalyzerTask.atldb  is deleted from the disk.
+11/26/2020 13:18:26,INFO:ATLSDK:logger end.
